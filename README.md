@@ -13,6 +13,7 @@ Make a media for posting and commentin on workout. calculating calorie burns and
 For later adding calories for the things that was eaten and then compare it to the calories that was burnt in the username page.
 
 ## Wireframes
+![React 007](https://user-images.githubusercontent.com/61396761/134082227-0eb923e6-f4fe-4382-a8d8-336ddc1c3667.jpeg)
 
 
 #### Home Page
@@ -33,6 +34,13 @@ For later adding calories for the things that was eaten and then compare it to t
 
 Form page and post page are look like each other.
 
+#### User Page
+
+![React 008](https://user-images.githubusercontent.com/61396761/134082060-ca7b9008-f640-4145-a5df-2a3cfbc1f632.jpeg)
+
+![React 009](https://user-images.githubusercontent.com/61396761/134082072-9ee64285-6b7f-463a-b7b3-22ca7fd12123.jpeg)
+
+
 <!-- #### Mobile Home Page
 
 ![TNN Mobile Home Page](https://res.cloudinary.com/dszox5xnw/image/upload/v1624948854/TheNetworkNetwork/the-network-network-04_nugfq7.png)
@@ -50,7 +58,8 @@ Form page and post page are look like each other.
 ![Component Hierarchy](https://res.cloudinary.com/dszox5xnw/image/upload/v1624923627/TheNetworkNetwork/TNN_xpl4dr.png) -->
 
 ## API and Data Sample
-<img width="1299" alt="API DATA" src="https://user-images.githubusercontent.com/61396761/134080906-aa93ace1-a275-4eae-9bd3-b0db59a530bb.png">
+
+<img width="1299" alt="API DATA" src="https://user-images.githubusercontent.com/61396761/134082134-a4912b8d-08a4-4d75-a902-3082c5242d20.png">
 
 
 
