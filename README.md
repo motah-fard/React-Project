@@ -61,18 +61,6 @@ IF you want an example of a stellar README, [check this out](https://github.com/
 
 
 
-### Squad Standups <!-- omit in toc -->
-
-All students will be grouped into a squad. Every morning and evening, squads will do standups, where each person will answer:
-
-1. What did you work on?
-2. What will you work on?
-3. What's something you expect will block your progress?
-
-After this, we'll go around the squad once more, indicating what "percent MVP" you are at with your project. Remember, the purpose of these check-ins is **not** to discuss technical questions, but to answer questions about workflow and get a status check-in.
-
-
-
 
 
 
