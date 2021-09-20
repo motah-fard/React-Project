@@ -13,13 +13,13 @@ Front End React App <!-- omit in toc -->
 
 ### React <!-- omit in toc -->
 
-- Be a working, interactive React app, built using `create react app`.
-- Utilize React Router, installed via NPM. 
+- Using `create react app` to make a working app for calorie burning and gaining calculator.
+- Utilizing React Router, installed via NPM (npm install react-router-dom). 
 - Have at least 6 separate, rendered components.
-- Implement an organized and understandable React file structure.
-- Utilize functional and/or class React components appropriately.
-- Use Axios to consume data from Airtable, and GET/render that data in your components.
-- Use Axios to POST/create new data on Airtable.
+- Implementing an organized and understandable React file structure.
+- Utilizing functional and/or class React components appropriately.
+- Using Axios to consume data from Airtable, and GET/render that data in your components.
+- Using Axios to POST/create new data on Airtable.
 - Use **only** React for DOM Manipulation.
 
 ### Styling <!-- omit in toc -->
@@ -28,57 +28,24 @@ Front End React App <!-- omit in toc -->
 - Use flexbox (`display: flex`) or CSS Grid (N/A if using a component library that handles this).
 - Implement responsive design on 2 screen sizes, using a media query (desktop and mobile and N/A if using a component library that handles this).
   
-### Linting <!-- omit in toc -->
-
-- Indent properly.
-- Utilize high-quality, semantic variable names.
-- Follow `camelCase`, `kebab-case` and `PascalCase` conventions.
-- Remove unnecessary boilerplate React files and code.
-- Remove all `console.log()`s and commented out code (functional notes and comments are acceptable).
-
 ### Deployment <!-- omit in toc -->
 
 - Deployed via Netlify.
 
 ### Procedural <!-- omit in toc -->
 
-- Commit early and often! Have GitHub commits (documenting substantial progress) **every day**. You should have a **minimum** of 20 commits total.
-
-## The Presentation
-
-Finally, to get you familiar with presenting your work to audiences, the last requirement: 
-
-- Present your app to your cohort. Be sure to show it's functionality and features, including responsiveness. (Chrome Dev Tools' _Device Toolbar_ is helpul for this.)
-
+- Having a **minimum** of 20 commits total.
 
 # GETTING STARTED
 
-## STEP 1. Read All Directions Before You Start
+## Step 1. Seting up Airtable
 
-_We'll know if you don't._
+Wou have the building blocks of every Database dependent website in the world (i.e. Facebook, Airbnb, MySpace, Twitter)! While we may not have User Authentication yet, we still can build something powerful and useful with **Airtable**!
 
-## STEP 2. Make A New Repo
-
-You will start by creating a React app on your machine, and push it to your **personal** GitHub. _(Refer to the Resources section below if you need help with this.)_
-
-| **DO**                              | **DO NOT**                         |
-| ----------------------------------- | ---------------------------------- |
-| ... Use your personal GitHub.       | ... Use your Enterprise GitHub.    |
-| ... Make a new repo through GitHub. | ... Clone this SEI repo.           |
-| ... Make the new repo public.       | ... Have a nested React app.       |
-
-
-## Step 3. Setup your Airtable
-
-The sky is the limit here, even though in class, we only went over the basic use cases of Airtable, you now can have full CRUD functionality with your application. You have the building blocks of every Database dependent website in the world (i.e. Facebook, Airbnb, MySpace, Twitter)! While you may not have User Authentication yet, you still can build something powerful and useful! BE CREATIVE!
-
-## STEP 4. Wireframe Your App
+## STEP 2. Wireframe Your App
 
 You can make your wireframes as lo-fi and hand-drawn, or as hi-res and computer-generated, as you'd like. Just prove that you've thought about what this layout will require. Include desktop, tablet, and mobile screen sizes.
 
-## STEP 5. Pitch Your Project Idea
-
-Before you start coding away, you must meet with an instructor to get your ideas approved. We will have 8 minute pitches in which you'll present your ideas. **You must have your ideas prepared and written up in a ReadMe file, including all of the following items, to get approved.**
 
 IF you want an example of a stellar README, [check this out](https://github.com/rahulpjo/the-network-network)!
 
@@ -92,23 +59,7 @@ IF you want an example of a stellar README, [check this out](https://github.com/
 8. **Timeframes:** Estimate out how much time you'll need for each part of your project! This will help you determine your schedule as well as how to prioritize certain features.
 9. **SWOT Analysis:** Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats?
 
-> [Project 2 README Template](https://git.generalassemb.ly/sei-den-osos/project-2/blob/master/Project-Template.md)
->
-> Optionally, include a final section, your `Code Showcase`. Put snippets you're proud of here, and let your viewers know when you've written brag-worthy code!
->
-> For putting wireframes in your ReadMe, we recommend uploading to Imgur, then linking the file directly into your markdown using the `![imageAlt](imageURL)` format. The imageURL must be a direct link ending with the file format, such as `.png`.
 
-| **DO**                                  | **DO NOT**                        |
-| --------------------------------------- | --------------------------------- |
-| ... Create a ReadMe file locally.       | ... Leave your ReadMe empty.      |
-| ... Add, commit & push your ReadMe.     | ... Leave your GitHub repo empty. |
-| ... Have your Pitch materials prepared. | ... Waste the instructors' time.  |
-
-## STEP 6. Get Hacking
-
-Yay! Now that you've been approved, create a new React app in your GitHub repository with `npx create-react-app client`, and get hacking! Some tips for project week:
-
-### Deploy Early and Often! <!-- omit in toc -->
 
 ### Squad Standups <!-- omit in toc -->
 
@@ -120,58 +71,182 @@ All students will be grouped into a squad. Every morning and evening, squads wil
 
 After this, we'll go around the squad once more, indicating what "percent MVP" you are at with your project. Remember, the purpose of these check-ins is **not** to discuss technical questions, but to answer questions about workflow and get a status check-in.
 
-### Getting Unstuck <!-- omit in toc -->
 
-Remember, two things:
 
-1. Don't hesitate to write messy code to solve short-term problems; you can always refactor later!
-2. Read the documentation for whatever technologies you use! The docs often include a tutorial that can help you get started, and learning to read documentation is crucial to your success as a developer.
 
-### Getting Support <!-- omit in toc -->
 
-To receive support, file an issue ticket on your project's git repository to both provide the instructor with a point of reference regarding your code and the issue you are having. This will enable us to give you more effective guidance.
 
-(We also strongly recommend using Slack to get help from your classmates. Chances are you all will be running into similar problems!)
 
-When you submit an issue ticket, you must use the issue ticket template and include all sections.
 
-> [Project Issue Ticket Template](https://git.generalassemb.ly/sei-den-osos/.github/blob/main/ISSUE_TEMPLATE/PROJECT_ISSUE_TICKET.md)
 
-# GROUPS
-These are located in the [squads.md](./squads.md) file.
 
-# RECOMMENDATIONS
 
-_(From previous survivors of project weeks.)_
 
-> "This is a nice chance to make a portfolio piece, but you don't expect perfection. After graduating the SEI, no matter how great your project is now, you will want to return to it to improve and polish, before recruiters and potential employers see it."
+<!-- CODENAME: BANANA -->
 
-> "Manage your expectations. Have a clear MVP goal and stick to it. If you're doing something that has nothing to do with your end goal, stop it. Also, try to just get your project working and improve it from there. Don't try to make it perfect the first time because you'll probably be unsuccessful. Get it working, make it better, repeat."
+# Project Overview
 
-> "Mobile-first design, stick to your wireframes; it’s stressful to redo your whole CSS and lose precious project time."
+## Project Name
 
-> "Narrow your scope, especially if you’re chasing down a specific feature that you’ve never implemented.  Treat it as a chance to learn by doing and most importantly: build something you are happy to claim ownership of."
+The Network Network
 
-> "Don’t try too hard. Really. Do something that’s achievable and put cool graphics and styling on it."
+## Project Description
 
-### SAMPLE PROJECTS
-Here are some previous P2s from students:
-- [Working It](https://workingit-training-app.netlify.app/)
-- [2048](https://2048-clone-zs.netlify.app)
-- [FinDash](https://quizzical-kirch-53c1ec.netlify.app/)
-- [The Wrapper](https://the-wrapper.netlify.app)
-- [Every Metro](https://every-metro.netlify.app/)
-- [Icebreaker](https://frosty-kowalevski-764330.netlify.app/)
-- [Volleyball Playbook](https://modest-poincare-a94579.netlify.app/)
-- [Is It A Sandwich](https://is-it-a-sandwich.netlify.app/)
-- [FGLI Resource Hub](https://zen-tesla-60dc5f.netlify.app/)
-- [Montpelier Zombie Guide](https://montpelierzombieguide.netlify.app/)
-- [Stock Up](https://peaceful-knuth-91276e.netlify.app/)
+The Network Network (or TNN) is an app that allows people to get rid of their anxiety that comes with networking by posting templates of their messages and having people review/give notes on it!
 
-### Incomplete Projects <!-- omit in toc -->
+## Wireframes
 
-Incomplete projects will be given a 3 day/weekend extension. **Note that you are allowed only one extension for any project. Use it wisely.**
+#### Home Page
 
-# PLAGIARISM
+![TNN Home Page](https://res.cloudinary.com/dszox5xnw/image/upload/v1624948854/TheNetworkNetwork/the-network-network-01_vhnfty.png)
 
-Remember, we have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism policy page](https://git.generalassemb.ly/sei-den-osos/class-info/blob/master/policies/plagiarism.md).
+#### Post Page
+
+![TNN Post Page](https://res.cloudinary.com/dszox5xnw/image/upload/v1624948853/TheNetworkNetwork/the-network-network-03_wsoijf.png)
+
+#### Form Page
+
+![TNN Form Page](https://res.cloudinary.com/dszox5xnw/image/upload/v1624948853/TheNetworkNetwork/the-network-network-02_innmzk.png)
+
+#### Mobile Home Page
+
+![TNN Mobile Home Page](https://res.cloudinary.com/dszox5xnw/image/upload/v1624948854/TheNetworkNetwork/the-network-network-04_nugfq7.png)
+
+#### Mobile Post Page
+
+![TNN Mobile Post Page](https://res.cloudinary.com/dszox5xnw/image/upload/v1624948854/TheNetworkNetwork/the-network-network-06_sjk5zy.png)
+
+#### Mobile Form Page
+
+![TNN Mobile Form Page](https://res.cloudinary.com/dszox5xnw/image/upload/v1624948854/TheNetworkNetwork/the-network-network-05_jwkv7d.png)
+
+## Component Hierarchy
+
+![Component Hierarchy](https://res.cloudinary.com/dszox5xnw/image/upload/v1624923627/TheNetworkNetwork/TNN_xpl4dr.png)
+
+## API and Data Sample
+
+### Example Link:
+
+https://api.airtable.com/v0/AIRTABLE_BASE_ID/posts?api_key=YOUR_API_KEY
+
+### Example Data:
+
+```json
+{
+  "records": [
+    {
+      "id": "rec30YpXrxvXPHxrd",
+      "fields": {
+        "text": "I'm pleased to meet you! My name is AmbitiousAnt, I'm a recent graduate from {College/University}; I noticed you're also a fellow {SchoolMascot} and was wondering if you were open to speaking about your experience at {Company}!",
+        "postedBy": "AmbitiousAnt",
+        "votes": 7,
+        "comments": [
+          "recRnrj0QvnWwfsyc",
+          "rechUuhsm1P5nAmdg",
+          "recsr77OJYmDffzJO"
+        ]
+      },
+      "createdTime": "2021-06-28T20:17:42.000Z"
+    },
+    {
+      "id": "recc2dXqPJwJA6eRB",
+      "fields": {
+        "text": "What's up, how are you doing?",
+        "postedBy": "CoolKid",
+        "votes": -3,
+        "comments": ["recEhiL5BFaRPfdJX", "rec7I0slt2y2KlamU"]
+      },
+      "createdTime": "2021-06-28T20:17:42.000Z"
+    },
+    {
+      "id": "reck5iaBlJEc3uLtg",
+      "fields": {
+        "comments": [
+          "recg1OnOCQfjza7JV",
+          "rec63nTLCjFhIOrmB",
+          "recJ9YUB9pXH1h5x1"
+        ],
+        "votes": 2,
+        "text": "Hello my name is JumpingJellyfish, it's nice to meet you!",
+        "postedBy": "JumpingJellyfish"
+      },
+      "createdTime": "2021-06-28T20:17:42.000Z"
+    }
+  ]
+}
+```
+
+### MVP/Post MVP
+
+#### MVP
+
+- Create structure of site entirely in React (including React Router)
+- Create an Airtable base and handle GET, POST, and PUT axios requests
+- Render posts from base onto page
+- Create/render forms to let users add and edit posts
+- Style components using CSS and create page structure using flexbox
+- Make site responsive on at least two screen sizes
+- Deploy site and use environment variables to hide API keys
+
+#### Post MVP
+
+- Add votes/comment functionality
+- Use local storage to save username and restrict deleting/editing
+- Add Favorites page to show user in local storage's most recent upvotes
+- Implement sorting to show posts by recency or by votes
+- Animate buttons/forms for enhanced user experience
+
+## Project Schedule
+
+| Day        | Deliverable                                   | Status   |
+| ---------- | --------------------------------------------- | -------- |
+| June 28-29 | Prompt / Wireframes / Timeframes              | Complete |
+| June 29    | Project Approval                              | Complete |
+| June 30    | Core Application Structure (React, CSS, etc.) | Complete |
+| July 1     | Axios Requests/Form Handling/Rendering        | Complete |
+| July 2     | MVP/Deployment                                | Complete |
+| July 6     | Post-MVP                                      | Complete |
+| July 7     | Presentations                                 | Complete |
+
+## Timeframes
+
+| Component                     | Priority | Estimated Time | Time Invested | Actual Time |
+| ----------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Prep/Planning                 |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Wireframes/Logo Design        |    H     |     2.5hrs     |     2hrs      |    2hrs     |
+| Initial React Structure       |    H     |     2.5hrs     |    3.5hrs     |   3.5hrs    |
+| Page Styling                  |    M     |      2hrs      |     2hrs      |    2hrs     |
+| Component Styling             |    M     |     2.5hrs     |     3hrs      |    3hrs     |
+| Routing Setup                 |    H     |     1.5hrs     |    1.5hrs     |   1.5hrs    |
+| Airtable Setup                |    H     |      2hrs      |    1.5hrs     |   1.5hrs    |
+| Axios Requests                |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Responsiveness                |    M     |      2hrs      |     2hrs      |    2hrs     |
+| Posts Rendering               |    H     |     2.5hrs     |    3.5hrs     |   3.5hrs    |
+| Auxiliary Component Rendering |    H     |      3hrs      |    2.5hrs     |   2.5hrs    |
+| Form Setup                    |    M     |     2.5hrs     |     2hrs      |    2hrs     |
+| Form Handling                 |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Favorites Page Setup          |    L     |      3hrs      |     3hrs      |    3hrs     |
+| Debugging                     |    M     |      3hrs      |    4.5hrs     |   4.5hrs    |
+| Animation                     |    L     |      2hrs      |     1hrs      |    1hrs     |
+| Deployment                    |    H     |      2hrs      |      2hr      |     2hr     |
+| Total                         |          |     42hrs      |     42hrs     |    42hrs    |
+
+## SWOT Analysis
+
+### Strengths:
+
+I have a comfort with React that I've developed over the weeks that I think will really come in handy when doing things like my initial construction and making things components. I also have a pretty solid idea of the order in which I want to attack everything so I think my foresight will really be my biggest strength.
+
+### Weaknesses:
+
+I am most worried about working with local storage in the Post MVP because I haven't really used it before. I think it might prove to be a bit of a learning curve so I'm going to save that for towards the end. I also think the comment functionality will take a while, especially when thinking about how I want to allow users to input comments.
+
+### Opportunities:
+
+I have the opportunity to work with an easier version of a back-end database with the Airtable API, so I'm really excited to have my fundamentals of that down. I also have to get a peek into new opportunities and more advanced functionalities with everything I've learned in React so far.
+
+### Threats:
+
+I definitely have the tendency of overthinking things or trying to accomplish so much that it actually detracts from the overall quality of the project. To remedy this, I want to make sure not to start the post MVP or less important aspects of the app before I have everything in the MVP completely done and working.
+
