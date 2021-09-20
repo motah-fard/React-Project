@@ -13,8 +13,9 @@ Make a media for posting and commentin on workout. calculating calorie burns and
 For later adding calories for the things that was eaten and then compare it to the calories that was burnt in the username page.
 
 ## Wireframes
-![React 007](https://user-images.githubusercontent.com/61396761/134082227-0eb923e6-f4fe-4382-a8d8-336ddc1c3667.jpeg)
 
+
+![React 007](https://user-images.githubusercontent.com/61396761/134088982-e6d3c839-3f65-4a63-8ebd-f9b0a7ec720e.jpeg)
 
 #### Home Page
 
@@ -82,9 +83,9 @@ Form page and post page are look like each other.
 #### MVP
 
 - Create structure of site entirely in React (including React Router)
-- Create an Airtable base and handle GET, POST, and PUT axios requests
+- Create an Airtable base and handle GET, POST
 - Render posts from base onto page
-- Create/render forms to let users add and edit posts
+- Create/render forms to let users add posts
 - Style components using CSS and create page structure using flexbox
 - Make site responsive on at least two screen sizes
 - Deploy site and use environment variables to hide API keys
