@@ -9,17 +9,6 @@ Front End React App <!-- omit in toc -->
 
 
 
-
-# OVERVIEW
-
-> **Pitches Due:** 9/20/21 at 10:00 AM
->
-> **Deployed MVP Due:** 9/23/21 at 11:30 AM
-> 
-> **Presentations:** 9/27/21 at 10:00 AM
->
-> **Starter Code:** No starter code provided.
-
 ## MVP Requirements
 
 **In order to pass, ALL MVP requirements must be met.**
