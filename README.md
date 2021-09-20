@@ -1,37 +1,13 @@
 # React-Project
 
-![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 
 
-# PROJECT 2: Your Front End React App <!-- omit in toc -->
+Front End React App <!-- omit in toc -->
 
 <p align="center">
   <img src="https://thumbs.gfycat.com/BestMeagerHoki-small.gif" width="80%"/>
 </p>
 
-Congratulations! You are nearly done with Unit 2, which means you have conquered the basics of HTML, CSS, and Javascript. Now we get to kick it up a notch with modular and modern front-end applications using the React framework.
 
-As with P1, the Unit 2 Project is a chance to be creative, build something you can be proud of, and add it to your portfolio. You will be working individually on this project, but we'll be helping you out along the way.
-
-Remember to have fun and _read all the directions before you start_!
-
-
-## Table of Contents
-
-- [OVERVIEW](#OVERVIEW)
-  - [MVP Requirements](#MVP-Requirements)
-  - [Post-MVP Ideas](#Post-MVP-Ideas)
-  - [The Presentation](#The-Presentation)
-- [GETTING STARTED](#GETTING-STARTED)
-  - [STEP 1. Read All Directions Before You Start](#STEP-1-Read-All-Directions-Before-You-Start)
-  - [STEP 2. Make A New Repo](#STEP-2-Make-A-New-Repo)
-  - [STEP 3. Setup Airtable](#STEP-3-Setup-Airtable)
-  - [STEP 4. Wireframe Your App](#STEP-4-Wireframe-Your-App)
-  - [STEP 5. Pitch Your Project Idea](#STEP-5-Pitch-Your-Project-Idea)
-  - [STEP 6. Get Hacking](#STEP-6-Get-Hacking)
-- [RESOURCES](#RESOURCES)
-- [GROUPS](#GROUPS)
-- [RECOMMENDATIONS](#RECOMMENDATIONS)
-- [PLAGIARISM](#PLAGIARISM)
 
 
 # OVERVIEW
