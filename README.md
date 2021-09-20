@@ -7,17 +7,9 @@ Front End React App <!-- omit in toc -->
   <img src="https://thumbs.gfycat.com/BestMeagerHoki-small.gif" width="80%"/>
 </p>
 
-
+<!-- omit in toc -->
 
 ## MVP Requirements
-
-**In order to pass, ALL MVP requirements must be met.**
-
-This project, like the one prior, will be a portfolio piece. For a portfolio piece to be complete, it **must** demonstrate an understanding of - and an ability to use - the tools and techniques introduced in this unit. It should be functional with sufficient complexity, meeting the following requirements:
-
-### Planning <!-- omit in toc -->
-
-- Have a **thoroughly** developed `README.md` file. (Refer below to _"Step 5: Pitch Your Project Idea"_ for more.)
 
 ### React <!-- omit in toc -->
 
