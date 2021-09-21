@@ -1,0 +1,52 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 300px;
+  margin: 0 auto;
+}
+div {
+  background-color: #4d7f17;
+}
+form button {
+  grid-column: 1 / span 2;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90vw;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #4d7f17;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+img {
+  border-radius: 50%;
+  width: 50px;
+}
+.zoom {
+  padding: 15px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 1000%;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
