@@ -1,1 +1,0 @@
-https://www.alamy.com/gym-vector-icon-isolated-on-transparent-background-gym-transparency-logo-concept-image224840272.html

@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 import axios from "axios";
 import Nav from "./components/Nav"
 import Comment from './components/Comment'
-
+import Form from './components/Form'
 import { baseURL, config } from "./services";
 import './App.css';
 
@@ -29,6 +29,12 @@ function App() {
             <Comment key={comment.id} comment={comment} setToggleFetch={setToggleFetch} />
           ))}
         </main>
+      </Route>
+      <Route path="/new">
+      <Form comments={comments}  setToggleFetch={setToggleFetch} />
+      </Route>
+      <Route path="/edit/:id">
+      <Form comments={comments}  setToggleFetch={setToggleFetch} />
       </Route>
     </div>
   );
