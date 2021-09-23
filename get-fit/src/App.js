@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Route>
+      <Route path="/NutritionsAndCalories">
         <Search/>
       </Route>
       <Route exact path="/">
@@ -41,7 +41,7 @@ function App() {
           ))}
         </main>
       </Route>
-      <Route pathe="/NutritionsAndCalories">
+      <Route path="/NutritionsAndCalories">
             <Nutrition/>
       </Route>
       <Route path="/new">

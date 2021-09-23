@@ -5,7 +5,7 @@ export const config = {
   },
 };
 
-export const secURL = `https://api.edamam.com/api/nutrition-data?app_id=${process.env.REACT_APP_EDEMAM_ID}&app_key=${process.env.REACT_APP_EDEMAM_KEY}&nutrition-type=logging`;
+export const secURL = `https://api.edamam.com/api/food-database/v2/parser?app_id=${process.env.REACT_APP_EDEMAM_ID}&app_key=${process.env.REACT_APP_EDEMAM_KEY}&nutrition-type=cooking`;
 export const secConfig = {
   headers: {
     Authorization : `Bearer ${process.env.REACT_APP_EDEMAM_KEY}`,

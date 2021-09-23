@@ -11,12 +11,13 @@ function Search () {
     useEffect(()=>{
     const getNutrition = async () => {
         const response = await axios.get(`${secURL}&ingr=${search}`)
-        setFoodInfo(response.data);
-        console.log(response.data);
+        setFoodInfo(response.data.hints);
+        console.log(foodInfo);
       }
       getNutrition();
     },[search])
-    // console.log(foodInfo);
+    console.log(foodInfo.hints);
+
   const handleSubmit =(e)=>{
       e.preventDefault();
       setSearch(input)
@@ -27,17 +28,18 @@ function Search () {
         <div>
             <form onSubmit={handleSubmit}>
                 <input type="input" value={input} onChange={(e)=> setInput(e.target.value)}></input>
-                <Link to={`/${foodInfo.name}`}>
+
                     <button type='submit'>Catch the Calories</button>
-                </Link>
+
                 {
-                    foodInfo.name ? (
-                        <div>
-                            <h5>{foodInfo.name}</h5>
-                        </div>
-                    ) : (
-                        <h4>loading...</h4>
-                    )
+                    foodInfo.map((every)=>(
+                        <>
+                        <h2>{every.food.label}</h2>
+                        
+                        <img src={every.food.image} alt={every.food.label}/>
+                        <h6>{every.food.nutrients.ENERC_KCAL}KCAL</h6>
+                        </>
+                    ))
                 }
             </form>
         </div>

@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 
 class MoonButton extends Component {
+    constructor(){
+        super();
+        this.state = {
+            darkMode:true,
+            hovers:0,
+        }
+    };
+    changeMode(){
+        console.log(this)
+    }
     render() {
         return (
             <div>
