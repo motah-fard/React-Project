@@ -5,9 +5,9 @@ export const config = {
   },
 };
 
-export const secURL = `https://api.calorieninjas.com/v1/nutrition?query=`;
+export const secURL = `https://api.edamam.com/api/nutrition-data?app_id=${process.env.REACT_APP_EDEMAM_ID}&app_key=${process.env.REACT_APP_EDEMAM_KEY}&nutrition-type=logging`;
 export const secConfig = {
   headers: {
-    'X-Api-Key' : `${process.env.REACT_APP_NUTRITION_KEY}`,
+    Authorization : `Bearer ${process.env.REACT_APP_EDEMAM_KEY}`,
   },
 };

@@ -2,17 +2,17 @@
 import { useEffect, useState } from "react";
 import { Route } from "react-router-dom";
 import axios from "axios";
-import { baseURL, config, secURL, secConfig } from "../services";
+import { secURL, secConfig } from "../services";
 import { Link } from "react-router-dom";
 function Search () {
-    const [search, setSearch] = useState("chicken");
+    const [search, setSearch] = useState("cookie");
     const [input, setInput]=useState("");
     const [foodInfo, setFoodInfo]=useState([])
     useEffect(()=>{
     const getNutrition = async () => {
-        const response = await axios.get(`${secURL}+${search}`, secConfig)
-        setFoodInfo(response.data.items[0]);
-        console.log(response.data.items[0]);
+        const response = await axios.get(`${secURL}&ingr=${search}`)
+        setFoodInfo(response.data);
+        console.log(response.data);
       }
       getNutrition();
     },[search])
