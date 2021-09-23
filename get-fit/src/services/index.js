@@ -4,3 +4,10 @@ export const config = {
     Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
   },
 };
+
+export const secURL = `https://api.calorieninjas.com/v1/nutrition?query=`;
+export const secConfig = {
+  headers: {
+    'X-Api-Key' : `${process.env.REACT_APP_NUTRITION_KEY}`,
+  },
+};

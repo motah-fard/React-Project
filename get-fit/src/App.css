@@ -4,9 +4,7 @@ form {
   width: 300px;
   margin: 0 auto;
 }
-div {
-  background-color: #4d7f17;
-}
+
 form button {
   grid-column: 1 / span 2;
 }

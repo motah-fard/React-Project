@@ -20,8 +20,6 @@ function Form (props) {
           }
         }
       }, [params.id, props.characters]);
-
-
       const handleSubmit = async (e) => {
         e.preventDefault();
         const newComment = {
@@ -29,14 +27,12 @@ function Form (props) {
           username,
           caloriePerHour,
         }
-        // make a POST request to our endpoint (same as GET), pass our newCharacter as the data, and pass our config to allow ourselves entry into the database
         if (params.id) {
           const URL = `${baseURL}/${params.id}`;
           await axios.put(URL, { fields: newComment }, config);
         } else {
           await axios.post(baseURL, { fields: newComment }, config);
         }
-        // trigger our useEffect
         props.setToggleFetch((curr) => !curr);
         history.push("/");
       }
