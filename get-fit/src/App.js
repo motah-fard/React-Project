@@ -8,11 +8,14 @@ import { baseURL, config, secURL, secConfig } from "./services";
 import './App.css';
 import Nutrition from "./components/Nutrition"
 import Search from "./components/Search"
+import { Component } from "react";
+
 
 function App() {
   const [comments, setComments] = useState([]);
   const [calories, setCalories] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(false);
+
  
 
   useEffect(() => {

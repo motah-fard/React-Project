@@ -5,7 +5,7 @@ import axios from "axios";
 import { secURL, secConfig } from "../services";
 import { Link } from "react-router-dom";
 function Search () {
-    const [search, setSearch] = useState("cookie");
+    const [search, setSearch] = useState("chicken");
     const [input, setInput]=useState("");
     const [foodInfo, setFoodInfo]=useState([])
     useEffect(()=>{
