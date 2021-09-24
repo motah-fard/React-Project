@@ -16,11 +16,11 @@ function Search () {
     const getNutrition = async () => {
         const response = await axios.get(`${secURL}&ingr=${search}`)
         setFoodInfo(response.data.hints);
-        console.log(foodInfo);
+        // console.log(foodInfo);
       }
       getNutrition();
     },[search])
-    console.log(foodInfo.hints);
+    // console.log(foodInfo.hints);
 
   const handleSubmit =(e)=>{
       e.preventDefault();
@@ -41,9 +41,10 @@ function Search () {
                         <>
                         <h2>{every.food.label}</h2>
                         
-                        <img src={every.food.image} alt={every.food.label}/>
+                        <img src={every.food.image} />
                         <h6>{every.food.nutrients.ENERC_KCAL}KCAL</h6>
-                        <PieChart foodInfo={foodInfo}/>
+                        <PieChart foodNutrition={every.food}/>
+                        {console.log(every.food)}
                         </>
                     ))
                 }

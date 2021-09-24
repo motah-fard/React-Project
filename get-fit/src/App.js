@@ -45,6 +45,7 @@ function App() {
       </Route>
       <Route path="/new">
       <Form comments={comments}  setToggleFetch={setToggleFetch} />
+      <Search/>
       </Route>
       <Route path="/edit/:id">
       <Form comments={comments}  setToggleFetch={setToggleFetch} />
