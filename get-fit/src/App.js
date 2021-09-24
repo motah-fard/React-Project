@@ -32,7 +32,9 @@ function App() {
     <div className="App">
       <Nav />
       <Route path="/NutritionsAndCalories">
+      <Form comments={comments}  setToggleFetch={setToggleFetch} />
         <Search/>
+        <Nutrition/>
       </Route>
       <Route exact path="/">
         <main>
@@ -40,9 +42,6 @@ function App() {
             <Comment key={comment.id} comment={comment} setToggleFetch={setToggleFetch} />
           ))}
         </main>
-      </Route>
-      <Route path="/NutritionsAndCalories">
-            <Nutrition/>
       </Route>
       <Route path="/new">
       <Form comments={comments}  setToggleFetch={setToggleFetch} />

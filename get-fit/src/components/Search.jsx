@@ -4,6 +4,10 @@ import { Route } from "react-router-dom";
 import axios from "axios";
 import { secURL, secConfig } from "../services";
 import { Link } from "react-router-dom";
+// import { Doughnut } from 'react-chartjs-2';
+import PieChart from "./PieChart";
+
+
 function Search () {
     const [search, setSearch] = useState("chicken");
     const [input, setInput]=useState("");
@@ -26,6 +30,7 @@ function Search () {
 
     return (
         <div>
+            
             <form onSubmit={handleSubmit}>
                 <input type="input" value={input} onChange={(e)=> setInput(e.target.value)}></input>
 
@@ -38,6 +43,7 @@ function Search () {
                         
                         <img src={every.food.image} alt={every.food.label}/>
                         <h6>{every.food.nutrients.ENERC_KCAL}KCAL</h6>
+                        <PieChart foodInfo={foodInfo}/>
                         </>
                     ))
                 }

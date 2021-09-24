@@ -6,9 +6,10 @@ function Comment (props) {
     // console.log(props.comment.fields);
     const comment = props.comment.fields.comment;
     const username = props.comment.fields.username;
-    const id = props.comment.fields.id;
+    const activity = props.comment.fields.activity;
     const minutes = props.comment.fields.minutes;
-    const caloriePerHour = props.comment.fields.caloriePerHour;
+    const calorieBurned = props.comment.fields.calorieBurned;
+    const calorieEarned = props.comment.fields.calorieEarned;
     const imageURL = props.comment.fields.imageURL;
 
     const removeComment = async () => {
@@ -22,10 +23,11 @@ function Comment (props) {
             <h2>{username}</h2>
             <img src={imageURL}/>
             <h2>{comment}</h2>
+            <h2>{activity}</h2>
 
             {/* <h3>{id}</h3> */}
-            <h4>{minutes}</h4>
-            <h4>{caloriePerHour}</h4>
+            <h4>{calorieBurned} Kcal</h4>
+            <h4>{calorieEarned} Kcal</h4>
             <button onClick={removeComment}>REMOVE COMMENT</button>
             <Link to={`/edit/${props.comment.id}`}>
                 <button>EDIT</button>
