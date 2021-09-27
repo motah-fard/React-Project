@@ -51,7 +51,7 @@ function Form(props) {
     <div className="one">
       <div>
         <form onSubmit={handleSubmit}>
-          <div>
+          <div  className='comment'>
             <label htmlFor="username">Username:</label>
             <input
               id="username"

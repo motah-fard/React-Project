@@ -27,11 +27,11 @@ function Search() {
   };
 
   return (
-    <div>
+    <div >
       <form onSubmit={handleSubmit} className='search'>
-          <div>
+          <div >
         {foodInfo.map((every) => (
-          <>
+          <div  className='comment'>
             <h2>{every.food.label}</h2>
 
             <img src={every.food.image} />
@@ -44,10 +44,10 @@ function Search() {
             <h6>Dietary Fiber:{every.food.nutrients.FIBTG}gram</h6>
             <PieChart foodNutrition={every.food} />
             {console.log(every.food)}
-          </>
+          </div>
         ))}
         </div>
-        <div>
+        <div className='commentss'>
         <input
           type="input"
           value={input}

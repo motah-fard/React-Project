@@ -21,6 +21,17 @@ body {
   border: 0.25px #9fc5e9 solid;
   color: #20124d;
 }
+.commentss {
+  background-color: white;
+  max-width: 800px;
+  max-height: 100px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 0.25px #9fc5e9 solid;
+  color: #20124d;
+}
+
 
 .profilePic {
   border-radius: 20%;
@@ -102,8 +113,8 @@ hr {
   }
 }
 img {
-  border-radius: 50%;
-  width: 50px;
+  border-radius: 20%;
+  width: 105px;
 }
 .zoom {
   padding: 15px;
