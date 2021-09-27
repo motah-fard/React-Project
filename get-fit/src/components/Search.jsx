@@ -32,9 +32,12 @@ function Search() {
           <div >
         {foodInfo.map((every) => (
           <div  className='comment'>
-            <h4>{every.food.label}</h4>
-
+              <div className='infoOfNutrition'>
+            
+              <h4>{every.food.label}</h4>
             <img src={every.food.image} />
+            
+            </div>
             <hr />
             <div className='nutritions'>
             <h6>Energy:{every.food.nutrients.ENERC_KCAL}Kcal</h6>
