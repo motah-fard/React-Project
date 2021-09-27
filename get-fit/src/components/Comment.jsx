@@ -26,7 +26,7 @@ function Comment(props) {
   return (
     <div className="comment">
       <div className="info">
-        <Link to={`/${username}`}>
+        <Link to={`/username/${username}`}>
           <img src={imageURL} className="profilePic" />
         </Link>
         <div className="username">

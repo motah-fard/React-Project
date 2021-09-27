@@ -62,7 +62,7 @@ function App() {
         <Route path="/edit/:id">
           <Form comments={comments} setToggleFetch={setToggleFetch} />
         </Route>
-        <Route path="/:username">
+        <Route path="/username/:username">
           <OneUser comments={comments} />
         </Route>
         <Route path='/aboutme'>

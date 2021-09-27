@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../services";
+import GroupedBarChart from "./GroupedBarChart"
 
 function OneUser(props) {
   const [username, setUsername] = useState("");
@@ -30,8 +31,40 @@ function OneUser(props) {
 
   return (
     <div className="oneUser">
-      <h3>{username}</h3>
-      <img src={imageURL} alt={username} />
+
+<div className="comment">
+      <div className="info">
+          <img src={imageURL} className="profilePic" />
+        <div className="username">
+          <p>{username}</p>
+        </div>
+      </div>
+      <hr />
+
+
+      <div className="text">
+        <p>{comment}</p>
+      </div>
+      <hr />
+      <div className="activities">
+        <p>Activity</p>
+
+        {/* <h3>{id}</h3> */}
+        <p>Calorie Burned </p>
+
+        <p>Calorie Earned </p>
+      </div>
+      <div className="activity">
+        <p>{activity}</p>
+
+        {/* <h3>{id}</h3> */}
+        <p>{calorieBurned} Kcal</p>
+        <p>{calorieEarned} Kcal</p>
+      </div>
+      <hr />
+      <GroupedBarChart calorieBurned={calorieBurned} calorieEarned={calorieEarned}/>
+    </div>
+
     </div>
   );
   // }
