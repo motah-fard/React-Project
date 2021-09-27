@@ -31,6 +31,7 @@ function OneUser(props) {
   return (
     <div className="oneUser">
       <h3>{username}</h3>
+      <img src={imageURL} alt={username} />
     </div>
   );
   // }

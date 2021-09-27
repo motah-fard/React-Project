@@ -10,7 +10,7 @@ export default function Nav() {
         <Link to="/new">Add a new comment</Link>
         <Link to="/NutritionsAndCalories">search</Link>
         <Link to="/aboutme">About Me</Link>
-        <Link to="/contactme">Contact Me</Link>
+        <Link to="/contact/contactme!">Contact Me</Link>
       </div>
     </nav>
   );

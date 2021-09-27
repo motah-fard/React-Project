@@ -68,7 +68,7 @@ function App() {
         <Route path='/aboutme'>
           <AboutMe/>
         </Route>
-        <Route path='contactme!'>
+        <Route path='/contact/contactme!'>
           <ContactMe/>
         </Route>
       </div>
