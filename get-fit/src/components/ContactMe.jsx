@@ -3,8 +3,11 @@ import React from "react";
 function ContactMe() {
   return (
     <div>
+      
       <form>
+        
         <div className='comment'>
+        <h1>Contact me!</h1>
           <label htmlFor="name">Name:</label>
           <input id="name" type="text" required autoComplete="off" autoFocus />
           <label htmlFor="lastname">Lastname:</label>
