@@ -32,9 +32,11 @@ function Search() {
           <div >
         {foodInfo.map((every) => (
           <div  className='comment'>
-            <h2>{every.food.label}</h2>
+            <h4>{every.food.label}</h4>
 
             <img src={every.food.image} />
+            <hr />
+            <div className='nutritions'>
             <h6>Energy:{every.food.nutrients.ENERC_KCAL}Kcal</h6>
             <h6>Protein:{every.food.nutrients.PROCNT}gram</h6>
             <h6>Total lipid (fat) :{every.food.nutrients.FAT}gram</h6>
@@ -42,6 +44,8 @@ function Search() {
               Carbohydrate, by difference:{every.food.nutrients.CHOCDF}Gram
             </h6>
             <h6>Dietary Fiber:{every.food.nutrients.FIBTG}gram</h6>
+            </div>
+            <hr />
             <PieChart foodNutrition={every.food} />
             {console.log(every.food)}
           </div>

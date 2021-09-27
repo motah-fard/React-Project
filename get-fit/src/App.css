@@ -31,6 +31,11 @@ body {
   border: 0.25px #9fc5e9 solid;
   color: #20124d;
 }
+.nutritions {
+  /* display: flex; */
+  justify-content: space-around;
+  text-align: center;
+}
 
 
 .profilePic {
