@@ -4,9 +4,9 @@ import axios from "axios";
 import Nav from "./components/Nav"
 import Comment from './components/Comment'
 import Form from './components/Form'
-import { baseURL, config, secURL, secConfig } from "./services";
+import { baseURL, config } from "./services";
 import './App.css';
-import Nutrition from "./components/Nutrition"
+import OneUser from "./components/OneUser"
 import Search from "./components/Search"
 import { Component } from "react";
 
@@ -34,7 +34,7 @@ function App() {
       <Route path="/NutritionsAndCalories">
       <Form comments={comments}  setToggleFetch={setToggleFetch} />
         <Search/>
-        <Nutrition/>
+
       </Route>
       <Route exact path="/">
         <main>
@@ -49,6 +49,9 @@ function App() {
       </Route>
       <Route path="/edit/:id">
       <Form comments={comments}  setToggleFetch={setToggleFetch} />
+      </Route>
+      <Route path="/:username">
+      <OneUser comments={comments}/>
       </Route>
     </div>
   );

@@ -21,7 +21,9 @@ function Comment (props) {
     return (
         <div>
             <h2>{username}</h2>
-            <img src={imageURL}/>
+                <Link to ={`/${username}`}>
+                    <img src={imageURL}/>
+                </Link>
             <h2>{comment}</h2>
             <h2>{activity}</h2>
 

@@ -29,13 +29,12 @@ function Form (props) {
       const handleSubmit = async (e) => {
         e.preventDefault();
         const newComment = {
-          comment,
-          username,
-          calorieBurned,
-          imageURL,
-          activity,
-          calorieEarned,
-
+          comment:comment,
+          username:username,
+          calorieBurned:calorieEarned,
+          imageURL:imageURL,
+          activity:activity,
+          calorieEarned:calorieEarned,
         }
         if (params.id) {
           const URL = `${baseURL}/${params.id}`;
@@ -108,7 +107,7 @@ function Form (props) {
           value={calorieEarned}
           onChange={(e) => setCalorieEarned(e.target.value)}
         />
-        <button type="submit">Edit the comment</button>
+        <button type="submit">Edit/Add the comment</button>
     </form>
     );
 };
