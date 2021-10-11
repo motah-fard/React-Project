@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-import { Route } from "react-router-dom";
 import axios from "axios";
-import { secURL, secConfig } from "../services";
-import { Link } from "react-router-dom";
+import { secURL } from "../services";
 // import { Doughnut } from 'react-chartjs-2';
 import PieChart from "./PieChart";
 
@@ -29,7 +27,7 @@ function Search() {
   return (
     <div >
       <form onSubmit={handleSubmit} className='search'>
-          <div >
+          <div className="correctness">
         {foodInfo.map((every) => (
           <div  className='comment'>
               <div className='infoOfNutrition'>
@@ -54,14 +52,16 @@ function Search() {
           </div>
         ))}
         </div>
+        
         <div className='commentss'>
+       
         <input
           type="input"
           value={input}
           onChange={(e) => setInput(e.target.value)}
         ></input>
         
-        <button type="submit">Catch the Calories</button>
+        <button type="submit">Search for the food and Catch the Calories!</button>
         </div>
       </form>
     </div>

@@ -29,7 +29,7 @@ function ContactMe() {
             autoFocus
           />
 
-          <button type="submit">SUBMIT</button>
+          <button  type="submit">SUBMIT</button>
         </div>
       </form>
     </div>

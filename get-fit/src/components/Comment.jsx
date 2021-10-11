@@ -24,7 +24,10 @@ function Comment(props) {
   }/${current.getFullYear()}`;
 
   return (
+    <div>
+      <h3>here you can see my students! click on the pics to see their related info!</h3>
     <div className="comment">
+      
       <div className="info">
         <Link to={`/username/${username}`}>
           <img src={imageURL} className="profilePic" />
@@ -55,11 +58,12 @@ function Comment(props) {
       </div>
       <hr />
       <div className="edit-delete-bar">
-        <button onClick={removeComment}>REMOVE COMMENT</button>
+        <button className="button" onClick={removeComment}>REMOVE COMMENT</button>
         <Link to={`/edit/${props.comment.id}`}>
-          <button>EDIT</button>
+          <button className="button">EDIT</button>
         </Link>
       </div>
+    </div>
     </div>
   );
 }

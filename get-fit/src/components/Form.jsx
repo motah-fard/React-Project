@@ -112,7 +112,7 @@ function Form(props) {
               value={calorieEarned}
               onChange={(e) => setCalorieEarned(e.target.valueAsNumber)}
             />
-            <button type="submit">Edit/Add the comment</button>
+            <button className="button" type="submit">Edit/Add the comment</button>
           </div>
         </form>
       </div>

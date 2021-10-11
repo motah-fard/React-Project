@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import axios from "axios";
 import { baseURL, config } from "../services";
 import GroupedBarChart from "./GroupedBarChart"
 
@@ -30,6 +29,7 @@ function OneUser(props) {
   }, [params.username, props.comments]);
 
   return (
+    
     <div className="oneUser">
 
 <div className="comment">
